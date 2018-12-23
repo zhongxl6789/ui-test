@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="果芽官网"  >
+  <test name = "提交作业" >
+    <classes>
+      <!--  要执行的类路径  选中类文件右键选择copy references-->
+      <class name="com.guoyasoft.gyautotest.ui.testCase.test.guoyahw.testcase.TestSubmmitWork" >
+        <methods>
+          <!-- 要执行的方法，include标签标示该方法需要执行，exclude标签标示改方法不执行-->
+          <include name = "TestSubmmitWork" />
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
